@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'dinpro';
+  src: url('../fonts/DINPro.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/DINPro.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/DINPro.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/DINPro.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/DINPro.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/DINPro.otf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/DINPro.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+html{height: auto; min-height: 100%;}
+body{
+	font-family: "dinpro";
+	height: auto;
+	min-height: 100%;
+	background-image: url('../images/back.jpg');
+	background-size: contain;
+	font-size: 20px;
+}
+p{text-align: justify;}
+
+.navbar-default{background:transparent; border:none;}
+.navbar-default .navbar-nav > li > a{font-weight: bold; font-size: 18px; }
+.navbar-default .navbar-nav > li > a:hover{color: #F0592A;}
+
+/*.container {background: transparent; width: 1200px; max-width: none !important}*/
+.noPadding{padding: 0; top:0;}
+/*.logo2{position: relative;}*/
+
+#principal{
+	height: 769px !important;
+	background-image: url('../images/fondo.png');
+	background-size: 1034px 769px;
+	background-position: center;
+	width: 1200px;
+	background-repeat: no-repeat;
+}
+.itemleft, .itemright{position: absolute;}
+/*.itemleft > *, .itemright > *{position: absolute;}*/
+.itemleft > a {text-decoration: none;}
+.itemright > a {text-decoration: none;}
+.itemleft > a > span {background: #bdbdbd; border-radius:25px 25px 0px 20px; padding: 5px 15px; color: #fff; position: absolute; margin-left:-80px; width: 270px;} 
+.itemleft > a > img {margin-left:120px; margin-top: -40px; position: absolute;}
+
+
+#lego > a > span {background: #bdbdbd; border-radius:25px 25px 25px 20px; padding: 5px 10px; color: #fff; padding-left: 100px;}
+#lego > a > img {margin-top: -50px;margin-left:-300px;}
+
+#entregas > a > span {background: #bdbdbd; border-radius:25px 25px 25px 20px; padding: 5px 10px; color: #fff; padding-left: 100px;}
+#entregas > a > img {margin-top: -50px;margin-left:-230px;}
+
+#infra > a > span {background: #bdbdbd; border-radius:25px 25px 25px 20px; padding: 5px 10px; color: #fff; padding-left: 100px;}
+#infra > a > img {margin-top: -35px;margin-left:-275px;}
+
+#almacenaje > a > span {background: #bdbdbd; border-radius:25px 25px 25px 20px; padding: 5px 10px; color: #fff; padding-left: 100px;}
+#almacenaje > a > img {margin-top: -60px;margin-left:-62px; position: absolute;}
+
+#distribucion > a > span {background: #bdbdbd; border-radius:25px 25px 25px 20px; padding: 5px 10px; color: #fff; padding-left: 90px;}
+#distribucion > a > img {margin-top: -65px;margin-left:-38px; position: absolute;}
+
+#proyectos{margin-top:125px; margin-left: 240px;}
+#servicios{margin-top:235px; margin-left: 960px;}
+#valor{margin-top:530px; margin-left: 905px;}
+#lego{margin-top:265px; margin-left: 105px;}
+#entregas{margin-top:445px; margin-left: 165px;}
+#infra{margin-top:585px; margin-left: 200px;}
+#almacenaje{margin-top:645px; margin-left: 625px;}
+#distribucion{margin-top:160px; margin-left: 860px;}
+/***************** FOOTER **********************/
+#home-footer{background: #000; padding: 30px; width: 1200px;}
+.breadcrumb{background: #000;}
+.breadcrumb > li > a{color: #fff;}
+
+
+/************* SIDE BAR *************/
+.sidebar{margin-bottom: 40px;}
+.sideBarLabel{display: none}
+.sidebar > a {color: #000;}
+.sidebar > a {font-size: 16px; z-index: 1000;}
+.sidebar > a > img {width: 50px;}
+.sidebar > a > span {top:20px;}
+.breadcrumb > li > a:hover{color: #F0592A;}
+
+
+/************************* INFO *****************/
+.boxInfo{color: #fff; line-height: 40px; min-height: 800px;}
+.subtitle{font-weight: bold;}
+.subtitle>span{font-weight: normal;}
+.logo{padding: 0;}
+.noPaddigLeft{padding-left: 0}
